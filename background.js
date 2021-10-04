@@ -2,7 +2,7 @@ class HTMLDigester{
 
   constructor(rawHTML){
     this.content = rawHTML.replace("&nbsp;"," ");
-    this.priceRegexes = [/€ *([0-9,.]+)/g,/([0-9,.]+) *€/g];
+    this.priceRegexes = [/€ *([0-9,. ]+)/g,/([0-9,. ]+) *€/g];
   }
 
   get price(){
