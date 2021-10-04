@@ -1,4 +1,4 @@
-# FLORA-Chrome-Extension
+# POW
 
 Follow the three little steps under *Create the manifest.* (do not create any manifest) 
 
